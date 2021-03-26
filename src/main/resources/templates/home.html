@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Pharmacy</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+</head>
+<body>
+<header th:insert="blocks/header :: header"></header>
+
+<div class="container mt-5">
+    <a href="/drug/add" class="btn btn-success">Add new drug</a>
+    <h1>List of drugs</h1>
+</div>
+<div class="album py-5 bg-light">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div th:each="el : ${posts}" class="alert alert-success mt-2">
+                <div class="col">
+                    <img th:src="${el.imageUrl}" class="bd-placeholder-img card-img-top" width="150" height="150"/>
+                    <h3 th:text="${el.title}"/>
+                    <p> <b>Price:</b> <span th:text="${el.price}"/> Com</p>
+                    <a th:href="'/drug-details/'+${el.id}" class="btn btn-success">More...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div th:insert="blocks/footer :: footer"></div>
+</body>
+</html>

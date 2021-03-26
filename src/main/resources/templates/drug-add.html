@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Pharmacy</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+</head>
+<body>
+<header th:insert="blocks/header :: header"></header>
+
+<div class="container mt-5 mb-5">
+    <form action="/drug/add" method="post">
+        <input type="text" name="title" placeholder="drug title" class="form-control"><br>
+        <textarea name="description" placeholder="description of drug" class="form-control"></textarea><br>
+        <textarea name="imageUrl" placeholder="Url of image" class="form-control"></textarea><br>
+        <input type="number" name="price" placeholder="Price of Drug" class="form-control"><br>
+        <button type="submit" class="btn btn-success">Add drug</button>
+
+    </form>
+</div>
+
+<div th:insert="blocks/footer :: footer"></div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Main Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+</head>
+<body>
+<header th:insert="blocks/header :: header"></header>
+<p><h1>The Pharmacy is for reading description of drugs</h1></p><br>
+
+<p>API description:</p>
+<ul>
+    <li>To view all products from db: <b>/</b> </li>
+    <li>To view one separated product from database: <b>/home-details/{id}</b> </li>
+    <li>To see detail with data: <b>/dev-section</b></li>
+    <li>To add new product by using POST request: <b>/dev-section/add</b> </li>
+    <li>To view one separated product from database for developer with opportunity edit and delete: <b>/dev-section/{id}</b> </li>
+    <li>To edit one separated product by using POST request: <b>/dev-section/{id}/edit</b> </li>
+    <li>To delete one separated product by using POST request: <b>/dev-section/{id}/delete</b> </li>
+</ul>
+
+<div th:insert="blocks/footer :: footer"></div>
+</body>
+</html>
