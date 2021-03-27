@@ -5,10 +5,10 @@
 * [What is used](#What-is-used)
 * [Heroku Link](#heroku-link)
 
-<img width="1440" alt="Screen Shot 2021-03-27 at 8 38 16 AM" src="https://user-images.githubusercontent.com/81443813/112707801-32b90b00-8ed8-11eb-8b76-920b4915744f.png">
-<img width="1440" alt="Screen Shot 2021-03-27 at 8 38 23 AM" src="https://user-images.githubusercontent.com/81443813/112707802-36e52880-8ed8-11eb-962e-73c4cbddfa75.png">
-<img width="1440" alt="Screen Shot 2021-03-27 at 8 38 29 AM" src="https://user-images.githubusercontent.com/81443813/112707803-38165580-8ed8-11eb-9236-ce7cf0ed5d57.png">
-<img width="1440" alt="Screen Shot 2021-03-27 at 8 37 17 AM" src="https://user-images.githubusercontent.com/81443813/112707804-38aeec00-8ed8-11eb-84b4-efd3a894c77b.png">
+<img width="1440" alt="Screen Shot 2021-03-27 at 8 48 26 AM" src="https://user-images.githubusercontent.com/81443813/112707955-3b5e1100-8ed9-11eb-8034-4db8ae8ee49b.png">
+<img width="1440" alt="Screen Shot 2021-03-27 at 8 47 10 AM" src="https://user-images.githubusercontent.com/81443813/112707956-3c8f3e00-8ed9-11eb-8a1d-e2772eb563dc.png">
+<img width="1440" alt="Screen Shot 2021-03-27 at 8 48 15 AM" src="https://user-images.githubusercontent.com/81443813/112707965-44e77900-8ed9-11eb-87e9-5487f9816fc0.png">
+
 
 ## General Info
 
